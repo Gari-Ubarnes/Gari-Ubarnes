@@ -1,0 +1,96 @@
+body{
+
+    background-image: url("https://th.bing.com/th/id/R.e0962ab1fb739d34b3fbaec476ac6904?rik=6n8clKeMnubgow&riu=http%3a%2f%2fmisimagenesde.com%2fwp-content%2fuploads%2f2017%2f05%2fimagenes-de-matematicas-3.jpg&ehk=qQf6moJ%2fSq7jYU%2bBuLfIVvqoNDUa6N8aQsEOb7UZhWE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+}
+
+.h1{
+text-shadow: 7px 4px 5px red;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+color: yellow;
+
+}
+
+.h1:hover{
+    font-size: 50px; 
+    color: black;
+
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.tituloh1{
+  background-color: white;
+  animation-name:example;
+  animation-duration: 3s;
+}
+ 
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top:300px;
+}
+.inputext{
+ background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.todast{
+    width:100px;
+    padding: 0px;
+   margin-top:10px;
+   float:left;
+    margin-left:12px; 
+}
+
+
+:root {
+  --main-color: #ecf0f1;
+  --point-color: #555;
+  --size: 5px;
+}
+
+.loader {
+  background-color: var(--main-color);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0; left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;  
+  z-index: 100000;
+}
